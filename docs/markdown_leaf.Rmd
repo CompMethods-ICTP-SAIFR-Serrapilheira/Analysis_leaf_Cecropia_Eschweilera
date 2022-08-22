@@ -14,7 +14,7 @@ csl: "journal-of-ecology.csl"
 ---
 ## Introduction 
 
-_Cecropia_ is a genus of the family Urticaceae that consists of species of pioneer trees [@BergRosselliDavidson2005]. The genus _Eschweilera_ belongs to the family Lecythidaceae.
+The genus _Cecropia_ belongs to the family Urticaceae and consists of species of pioneer trees [@BergRosselliDavidson2005]. The genus _Eschweilera_ belongs to the family Lecythidaceae.
 
 Plant functional traits are attributes that potentially affect establishment, survival and fitness of plant individuals [@Reichetal2003]. Two examples are specific leaf area (SLA) and leaf nitrogen content.
 
@@ -36,7 +36,7 @@ According to the database of BIEN, _Cecropia_ and _Eschweilera_ are distributed 
 
 ![Occurence map of _Cecropia_ and _Eschweilera_.]("../figs/map_occurence.pdf"){width=65%}
 
-For both genera, I loaded all available observations of the specific leaf area (SLA) - i.e., leaf area per leaf dry mass. Figure 2 shows these observations in boxplots. 
+For both genera, I loaded all available measures of the specific leaf area (SLA) - i.e., leaf area per leaf dry mass. Figure 2 shows these observations in boxplots. 
 
 ![Specific leaf area (SLA) of _Cecropia_ and _Eschweilera_.]("../figs/boxplot_sla.pdf"){width=60%}
 
@@ -46,7 +46,7 @@ The median of SLA of _Cecropia_ is 14.40105 m^2^/kg, the mean is 15.51825 m^2^/k
 
 Therefore, the first hypothesis, that says that the specific leaf area of _Cecropia_ is greater than that of _Eschweilera_, was refuted. 
 
-I also loaded all available observations of leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_. These observations are shown in the boxplots of Figure 3. 
+I also loaded all available measures of leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_. These observations are shown in the boxplots of Figure 3. 
 
 ![Leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_.]("../figs/boxplot_nitrogen.pdf"){width=60%}
 
