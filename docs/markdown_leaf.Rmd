@@ -1,0 +1,60 @@
+---
+title: "Specific leaf area and leaf nitrogen content of _Cecropia_ and _Eschweilera_"
+subtitle: "Serrapilheira/ICTP-SAIFR Training Program in Quantitative Biology and Ecology 2022: Computational methods"
+author: "Julia Rossi Mora"
+date: "August 2022"
+output:
+  pdf_document: default
+  html_document: default
+fontsize: 10.5pt
+header-includes:
+   - \setlength\parindent{22pt}
+bibliography: "references.bib"
+csl: "journal-of-ecology.csl"
+---
+## Introduction 
+
+_Cecropia_ is a genus of the family Urticaceae that consists of species of pioneer trees [@BergRosselliDavidson2005]. The genus _Eschweilera_ belongs to the family Lecythidaceae.
+
+Plant functional traits are attributes that potentially affect establishment, survival and fitness of plant individuals [@Reichetal2003]. Two examples are specific leaf area (SLA) and leaf nitrogen content.
+
+Specific leaf area (SLA, i.e., leaf area per leaf dry mass) is an inverse index of leaf density or thickness [@ReichWalters1994]. A correlation between specific leaf area (SLA) and mass of nitrogen (N~mass) has been previously identified in 23 Amazonian tree species, one of them being _Cecropia ficifolia_. In all species analysed, across increasing leaf age and light gradients, SLA decreased and so did N~mass, but proportionally slower, in a way that N~area increased [@ReichWalters1994].
+
+In the study of Raaimakers et al. (1995), nine tropical rainforest tree species were defined as pioneer or climax, based on regeneration strategy: _Cecropia obtusa_ was classified as a pioneer species and _Eschweilera sagotiana_ as a climax species. The results showed that, for tropical rainforest trees, pioneer species have higher leaf phosphorus and nitrogen content in comparison to climax species [@Raaimakersetal1995].
+
+I formulated two hypothesis in the present study. The first hypothesis is that the specific leaf area of _Cecropia_ is greater than that of _Eschweilera_. The second hypothesis is that the leaf nitrogen content per leaf dry mass of _Cecropia_ is higher than that of _Eschweilera_.  
+
+
+## Methods
+
+For the current study, I used the package BIEN [@BIEN], the Botanical Information and Ecology Network, in RStudio [@R2022]. Firstly, all occurence records available in BIEN of _Cecropia_ and _Eschweilera_ were ploted in a map. I gathered the data of specific leaf area (SLA, i.e., leaf area per leaf dry mass) of _Cecropia_ and _Eschweilera_ and created a boxplot to better visualize them. The same was done for leaf nitrogen content per leaf dry mass of both genera. I performed two Welch Two Sample t-tests, one for each trait of both genera, in order to test if both have equal means.
+
+
+## Results and Discussion
+
+According to the database of BIEN, _Cecropia_ and _Eschweilera_ are distributed in the Neotropics, but observations of _Cecropia_ are more widely distributed than _Eschweilera_ (for instance, there are no observations of _Eschweilera_ in Argentina, Paraguay and south of Brazil in the database of BIEN) (Figure 1).
+
+![Occurence map of _Cecropia_ and _Eschweilera_.]("../figs/map_occurence.pdf"){width=65%}
+
+For both genera, I loaded all available observations of the specific leaf area (SLA) - i.e., leaf area per leaf dry mass. Figure 2 shows these observations in boxplots. 
+
+![Specific leaf area (SLA) of _Cecropia_ and _Eschweilera_.]("../figs/boxplot_sla.pdf"){width=60%}
+
+The Welch Two Sample t-test of the specific leaf area (SLA) of _Cecropia_ and _Eschweilera_ resulted in: t = -5.2641, df = 78.642, p-value = 1.191e-06. The 95% confidence interval is -8.889639 to -4.011222. Since the p-value is much smaller than 0.05, it is possible to conclude that there is a statistically significant difference between the means of SLA of the two genera.
+
+The median of SLA of _Cecropia_ is 14.40105 m^2^/kg, the mean is 15.51825 m^2^/kg and the standard deviation is 7.191866 m^2^/kg. The median of SLA of _Eschweilera_ is 22.8217 m^2^/kg, the mean is 21.96868 m^2^/kg and the standard deviation is 9.690317 m^2^/kg. Thence, the median and the mean of SLA of _Cecropia_ are smaller than those of _Eschweilera_.
+
+Therefore, the first hypothesis, that says that the specific leaf area of _Cecropia_ is greater than that of _Eschweilera_, was refuted. 
+
+I also loaded all available observations of leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_. These observations are shown in the boxplots of Figure 3. 
+
+![Leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_.]("../figs/boxplot_nitrogen.pdf"){width=60%}
+
+The Welch Two Sample t-test of leaf nitrogen content per leaf dry mass of _Cecropia_ and _Eschweilera_ resulted in: t = 2.4205, df = 33.201, p-value = 0.02113. The 95% confidence interval is 0.6461239 to 7.4481962. The p-value is smaller than 0.05, so there is also a statistically significant difference between the means of leaf nitrogen content per leaf dry mass of both genera.
+
+The median of leaf nitrogen content per leaf dry mass of _Cecropia_ is 25 mg/g, the mean is 23.72648 mg/g and the standard deviation is 7.09657 mg/g. The median of leaf nitrogen content per leaf dry mass of _Eschweilera_ is 18.85 mg/g, the mean is 19.67932 mg/g and the standard deviation is 3.65172 mg/g.
+
+The results obtained corroborate the hypothesis that the leaf nitrogen content per leaf dry mass of _Cecropia_ is higher than that of _Eschweilera_. It is possible that the particular morphology of _Cecropia_ leaves had an impact in the results of this trait.
+
+## References
+
