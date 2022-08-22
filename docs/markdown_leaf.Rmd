@@ -9,6 +9,8 @@ output:
 fontsize: 10.5pt
 header-includes:
    - \setlength\parindent{22pt}
+     \usepackage{float}
+     \floatplacement{figure}{H}
 bibliography: "references.bib"
 csl: "journal-of-ecology.csl"
 ---
