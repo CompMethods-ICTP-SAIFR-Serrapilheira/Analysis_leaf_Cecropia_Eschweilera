@@ -12,6 +12,7 @@ header-includes:
 bibliography: "references.bib"
 csl: "journal-of-ecology.csl"
 ---
+
 ## Introduction 
 
 The genus _Cecropia_ belongs to the family Urticaceae and consists of species of pioneer trees [@BergRosselliDavidson2005]. The genus _Eschweilera_ belongs to the family Lecythidaceae.

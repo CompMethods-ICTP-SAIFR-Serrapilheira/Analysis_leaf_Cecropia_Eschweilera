@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.21)  21 AUG 2022 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.21)  22 AUG 2022 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,7 +423,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
 (c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<../figs/map_occurence.pdf, id=16, 722.7pt x 578.16pt>
+<../figs/map_occurence.pdf, id=20, 722.7pt x 578.16pt>
 File: ../figs/map_occurence.pdf Graphic file (type pdf)
 <use ../figs/map_occurence.pdf>
 Package pdftex.def Info: ../figs/map_occurence.pdf  used on input line 168.
@@ -431,5 +431,39 @@ Package pdftex.def Info: ../figs/map_occurence.pdf  used on input line 168.
 [1
 
 {c:/Users/juros/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-!pdfTeX error: pdflatex.exe (file ../figs/boxplot_sla.pdf): PDF inclusion: required page does not exist <0>
- ==> Fatal error occurred, no output PDF file produced!
+<../figs/boxplot_sla.pdf, id=35, 578.16pt x 433.62pt>
+File: ../figs/boxplot_sla.pdf Graphic file (type pdf)
+<use ../figs/boxplot_sla.pdf>
+Package pdftex.def Info: ../figs/boxplot_sla.pdf  used on input line 178.
+(pdftex.def)             Requested size: 281.85406pt x 211.39055pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 191.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 191.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 191.
+<../figs/boxplot_nitrogen.pdf, id=36, 578.16pt x 433.62pt>
+File: ../figs/boxplot_nitrogen.pdf Graphic file (type pdf)
+<use ../figs/boxplot_nitrogen.pdf>
+Package pdftex.def Info: ../figs/boxplot_nitrogen.pdf  used on input line 208.
+(pdftex.def)             Requested size: 281.85406pt x 211.39055pt.
+[2 <../figs/map_occurence.pdf>] [3 <../figs/boxplot_sla.pdf> <../figs/boxplot_nitrogen.pdf>] [4] (./markdown_leaf.aux)
+Package rerunfilecheck Info: File `markdown_leaf.out' has not changed.
+(rerunfilecheck)             Checksum: 3431856BDBCA329BAA4E8391D58CCBE0;437.
+ ) 
+Here is how much of TeX's memory you used:
+ 10918 strings out of 479638
+ 171081 string characters out of 5876700
+ 476865 words of memory out of 5000000
+ 29263 multiletter control sequences out of 15000+600000
+ 517069 words of font info for 66 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 72i,6n,77p,318b,472s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/juros/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on markdown_leaf.pdf (4 pages, 895092 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+
